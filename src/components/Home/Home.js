@@ -87,7 +87,7 @@ const HomePage = () => {
             <IoSearchOutline className="h-5 w-5 lg:h-6 lg:w-6 font-semibold text-gray-200" />
           </button>
           <input
-            placeholder="Search for movies"
+            placeholder="Search for Movies or Tv Series "
             name="search-box"
             onChange={handleChange}
             type="text"
