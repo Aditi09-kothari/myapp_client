@@ -118,6 +118,7 @@ const HomePage = () => {
                   <div
                     id={2}
                     className="w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide"
+                    style={{scrollbarWidth: "none", MsOverflowStyle: "none"}}
                   >
                     {trendingMovies?.map((movie, index) => {
                       return (
