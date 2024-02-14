@@ -15,7 +15,7 @@ root.render(
         reverseOrder={false}
         gutter={8}
         toastOptions={{
-          duration: 5000,
+          duration: 3000,
           style: {
             background: "#161D2F",
             color: "#fff",
